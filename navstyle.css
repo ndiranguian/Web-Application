@@ -1,0 +1,179 @@
+.spanner{
+    background-color: aqua;
+    border-radius: 10px;
+    border: solid 3px blue;
+    width: 350px;
+    height: 70vh;}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spanner h1{
+    font-family: "Century Schoolbook L", cursive;
+    font-size: 23px;
+    text-align: center;
+    text-decoration: underline;
+}
+.spanner input{
+    width: 70%;
+    position: relative;
+    margin: 10px 20px;
+    height: 20px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 7px;
+    background: transparent;
+    padding: 1px;
+
+}
+.button{
+     background-color: blue;
+    text-align: center;
+    padding: 5px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Schoolbook L", cursive;
+}
+.spanner{
+        width: 100%;
+        height: 100vh;
+        background-color: darkgreen;
+    background-image: url("resources/kkkkk.png");
+        background-size: auto;
+        background-position: center;
+    }
+
+    .navbar {
+        width: 50%;
+        margin: auto;
+        padding: 35px;
+        display: flex;
+        align-items: end;
+        justify-content: left;
+        background-color: blue;
+        align-self: end;
+    }
+
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+    }
+    .content{
+        width: 1200px;
+        height: auto;
+        margin: auto;
+        color: white;
+    }
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: "Century Schoolbook L", cursive;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: "Century Schoolbook L", cursive;
+    font-size: 50px;
+    padding-left: 50px;
+    margin-top: 9px;
+}
+.content .cn{
+    width: 10%;
+    height: 40px;
+    background-color: black;
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size:20px;
+    border-radius: 5px;
+}
+.content .cn a{
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+.content.cn:hover{
+    background-color: white;
+   /* color: red;*/
+}
+.content span{
+    color: red;
+    font-size: 60px;
+    text-decoration: none;
+}
+.form{
+    width: 250px;
+    height: 320px;
+    background-color:red;
+    position: fixed;
+    top:20px;
+    left:1095px;
+    border-radius:8px;
+    padding-left: 25px;
+}
+.form h2{
+    width:200px;
+    font-family: Chandas, sans-serif;
+    text-align: center;
+    color: black;
+    font-size:22px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 2px;
+    padding: 2px;
+
+}
+.form input{
+    width:200px;
+    height:35px;
+    background-color:black;
+    border-radius: 10px;
+    border-bottom: 1px solid firebrick;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    color:white;
+    font-size:15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: "Century Schoolbook L", cursive;
+}
+.btn{
+    width: 60px;
+    height: 20px;
+    background: white;
+    border: none;
+    font-size: 15px;
+
+
+}
+.btn:hover{
+    background: black;
+    color: white;
+
+}
+.btn a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+
+}
+.form .link{
+    font-family: "Century Schoolbook L", cursive;
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+}

@@ -1,0 +1,48 @@
+.banner{
+    background-color: aqua;
+    border-radius: 10px;
+    border: solid 3px blue;
+    width: 350px;
+    height: 70vh;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.banner h1{
+    font-family: "Century Schoolbook L", cursive;
+    font-size: 23px;
+    text-align: center;
+    text-decoration: underline;
+}
+.banner input{
+    width: 70%;
+    position: relative;
+    margin: 10px 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 7px;
+    background: transparent;
+    padding: 1px;
+
+}
+.button{
+    background-color: blue;
+    text-align: center;
+    padding: 5px;
+}
+.button button{
+    padding: 10px 20px;
+    width: 90%;
+    color: crimson;
+
+}
+.banner label{
+    margin: 10px 10px;
+}
